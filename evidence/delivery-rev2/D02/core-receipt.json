@@ -1,0 +1,17 @@
+{
+  "scenario": "D02",
+  "status": "CORE_PASSED",
+  "fixture": "qinghe-v2-change",
+  "startedAt": "2026-10-12T10:16:56.256Z",
+  "completedAt": "2026-10-12T10:16:56.568Z",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/D02-1791800215969",
+  "checks": [
+    "v1/v2 preserved; stale base rejects; rebased adoption commits once; key payload mismatch rejects; Q/P recover aligned",
+    "same ID changed action does not inherit old passed result"
+  ],
+  "deviations": [],
+  "limitations": [
+    "browser/cold-start evidence is collected separately; CORE_PASSED is not full scenario acceptance"
+  ]
+}

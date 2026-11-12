@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-10-12T12:03:05.334Z",
+  "sourceSha256": "7018a8e9302347e5d916845d119e62be79f1188942ea34693feae6230266a392",
+  "runtime": "v22.16.0",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "2ad0b29fe0d816dce78fd1dc9a81280eff66b330146a15eac7672ed1627b117f"
+    },
+    {
+      "path": ".npmrc",
+      "sha256": "8c294127b3a5bd85c9e4a27be4b034eb0cadd476adc8fd3391e22e86c72e1d69"
+    },
+    {
+      "path": "Start-Delivery.command",
+      "sha256": "ccad571e567c300d3f5cd1a56eb429c213eb345276250927861ef6bc4008f423"
+    },
+    {
+      "path": "index.html",
+      "sha256": "57526c2d8916c3a4a190be548c1ccd4a2e3a92876e52128298a5e0e73d1bad39"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "2ac3306b666059015c9e10c6f9bc1316e745607c48394aae8229ea4a0f52120e"
+    },
+    {
+      "path": "package.json",
+      "sha256": "06b688b7dc8b856715f2f51d6f1c609a68dadf34d9a683262e2c661be1dae18e"
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "c35e15b09eaf466d747a8a157f6462300ca9d0aa1a62343ee7a9df8b5f049dd1"
+    },
+    {
+      "path": "scripts/backup.ts",
+      "sha256": "2456a03f37b765c768b249e4f78bf202748be356788f4aabc50c75b3cc4d9758"
+    },
+    {
+      "path": "scripts/browser-server.ts",
+      "sha256": "dd3343aef7f67adb525c20b0bfaf2feb7dafad15a60e47bf648fc2a0b99bba29"
+    },
+    {
+      "path": "scripts/delivery-start.ts",
+      "sha256": "3ac54f7e6460c95a9159723aa838619c7152c0c8e47d883b3eb694ee73ca54d0"
+    },
+    {
+      "path": "scripts/ensure-admin.ts",
+      "sha256": "e7050e2bc2b46a463e2f021ec03565b8cf899ff533284523628e12d78dbdcced"
+    },
+    {
+      "path": "scripts/evidence-manifest.mjs",
+      "sha256": "8e683759f245371c40e340c8067f9cb1f4bb661db05aa35833ee2910d0354ecc"
+    },
+    {
+      "path": "scripts/init-admin.ts",
+      "sha256": "efa28fec89644c6409b5daa561bc199e93f95bc918a43b33dcfef3cee54758c3"
+    },
+    {
+      "path": "scripts/inspect-local.mjs",
+      "sha256": "0c30b0f5829d325973f5d05caa84906b70506332c6199f5f4502edb29397719d"
+    },
+    {
+      "path": "scripts/licenses.mjs",
+      "sha256": "4c3a02a3a20af5eae1dc1387d2adef90f743df900a0e07d9fc78ad4b8f735a1e"
+    },
+    {
+      "path": "scripts/question-bank-doc.ts",
+      "sha256": "2042b529c203695bb6b403fe0f7d20864ea162df5a586037c836a4f865bdb455"
+    },
+    {
+      "path": "scripts/restore.ts",
+      "sha256": "28e16b909add8584d092e6d9796c3f8b75853220cabd3c1f005b305c1bff71b7"
+    },
+    {
+      "path": "scripts/verify-delivery-browser.ts",
+      "sha256": "3a79c49f1d520b2a4e312d7dbe2f6982398b619caf598f4c5f6edbcd3cb4eb1d"
+    },
+    {
+      "path": "scripts/verify-delivery-launcher.mjs",
+      "sha256": "dec54f589ac4deae0e9fd4735445156912074bdbadaf779a5d3b65596c078e36"
+    },
+    {
+      "path": "scripts/verify-delivery.ts",
+      "sha256": "08f2a12fdb190e8aa7ace296b063d6f5a1be28f76062e8afc61efca7cd74a079"
+    },
+    {
+      "path": "scripts/verify-operations.ts",
+      "sha256": "2950f115934c4bf87656562e3f70344fe09b5eb1b868f3c9ef8482fd32573f30"
+    },
+    {
+      "path": "scripts/verify-questionnaire-ui.mjs",
+      "sha256": "14ee7e7c4b9fad60d543f9b39e858aa719495faa0c319f557e818e57cfba53f9"
+    },
+    {
+      "path": "scripts/verify-submission-feedback.ts",
+      "sha256": "21aea8a6fec5a1f32e2505103096e5b289f3a19ef8e06861fc036b599e9f7d6f"
+    },
+    {
+      "path": "scripts/verify-ui-refresh.ts",
+      "sha256": "b40570384e91deb70a2f49be35dc7fbdd1bc68ee7dcdc5fa5bc738dd22c07572"
+    },
+    {
+      "path": "server/app.ts",
+      "sha256": "34846e8bbebfbcd80fcb0eaf29cebab0c5882f83be402bf3b04b41402fe5b6fa"
+    },
+    {
+      "path": "server/db.ts",
+      "sha256": "dd999d4bdde506ad5a1c00fc203759775eabf130cb296e59968c7a3709e7d8be"
+    },
+    {
+      "path": "server/delivery-fixture.ts",
+      "sha256": "3e67cfe07b7635f384e388793d5654d553d9a458a501699d690e55fed9a61cc9"
+    },
+    {
+      "path": "server/delivery-model.ts",
+      "sha256": "d6f9c0bb505d95579d815e96ce1f72fd8f435fec391ceeaf160bce1ed86865c6"
+    },
+    {
+      "path": "server/delivery-packages.ts",
+      "sha256": "176803f705af1f050c3e430cd230069126d5691f9248297d248821035b3d01eb"
+    },
+    {
+      "path": "server/delivery-root.ts",
+      "sha256": "48f71bd049b4e1e42cd4b74b4ff64df27dae247bd218381dc7e5b24f26650644"
+    },
+    {
+      "path": "server/delivery-runtime.ts",
+      "sha256": "1279f63427338cfa22ddfa3a4b8178eedd94338d8d3926544d67b75432e3ee93"
+    },
+    {
+      "path": "server/delivery-store.ts",
+      "sha256": "fe4bb2ee6e9c7a1c2d9535503d58da7988747014bd364679da6275667275ec88"
+    },
+    {
+      "path": "server/index.ts",
+      "sha256": "b1f8637025c8850af73b26e21e6b7309bfd9bb96df3a54b88e404d8bb48d634a"
+    },
+    {
+      "path": "server/summary.ts",
+      "sha256": "aa2bdac478209ab88d1706a05454685bbbffd5fbcde384f79c97be7c822733dd"
+    },
+    {
+      "path": "site.yaml",
+      "sha256": "be767e75f1ea55814d1dba285fe7a62d785b86d00d864cfb9e50f5fbb6871d78"
+    },
+    {
+      "path": "src/DeliveryPage.tsx",
+      "sha256": "d0d8355e8ee34bdd701f967e356b825d2d6e35b913cab83be644d801dc89c66c"
+    },
+    {
+      "path": "src/SurveyForm.tsx",
+      "sha256": "9f5fe2d327b5cd9c042bdc1149330f57365d914b38666ffaf80bcf9fdbe08615"
+    },
+    {
+      "path": "src/api.ts",
+      "sha256": "fc39d0a48095cd1f991d40bf13bc18a32d7f17ef88de0cde0e3db83912156465"
+    },
+    {
+      "path": "src/delivery-types.ts",
+      "sha256": "54977cd4c60e69c25ab9dab5c3c6cfb489ffc21f22832de860b143b387944d2b"
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "802a5d8557010c27b97e84f639a545958bfa2cc28064e500563127f03e5f4532"
+    },
+    {
+      "path": "src/question-options.ts",
+      "sha256": "6137fbcf44f652e44389c7e6abdf60f102282bc218335658a93ccd54860adc58"
+    },
+    {
+      "path": "src/questionnaire.css",
+      "sha256": "e1d34c22a8dfa72c0df4587fb538be61bdcecec65d00c8a4755034b24b283d99"
+    },
+    {
+      "path": "src/questions.ts",
+      "sha256": "097c8fdaf8e147e3ae56ac7d8c9bb6df17cae731b9dc3a1b05b5719fe5b043ae"
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "1769597810c34c777e3e50be22cce0bb0131c756a8f85f0b3b0a85e00b53c391"
+    },
+    {
+      "path": "src/survey-routing.ts",
+      "sha256": "2b244a83952d26303e7d60f052012a776e7da2c6f63def4ba9c66e154c512270"
+    },
+    {
+      "path": "src/workbench.css",
+      "sha256": "dcc13e4aa1e841c02c371984e83c7e7aa97e61e12b7fee9a1a6c4260d77aa567"
+    },
+    {
+      "path": "start.sh",
+      "sha256": "0fce66f5327dedb2c4d6107327f967a2dfd2b88f3fc23b1e261d6e74e729a275"
+    },
+    {
+      "path": "tests/api.test.ts",
+      "sha256": "d1ac9fcf34e79b69c4b692465b66c1ea38e2f8f5751b1144aabeecb029ab90da"
+    },
+    {
+      "path": "tests/browser.spec.ts",
+      "sha256": "db7c484068ca0fc139ae6b412b470165e45cf2bf0f03eb647e788130b3ed3ea1"
+    },
+    {
+      "path": "tests/delivery.model.test.ts",
+      "sha256": "182f32f3aca4a1708ce50ef4c9f0038f39ad106a0a28a17e62aeeae2f1d650ff"
+    },
+    {
+      "path": "tests/passwordless.test.ts",
+      "sha256": "558b1484b6dae3569404898432d1f26c6c59c788259a8533aab7cec85d542742"
+    },
+    {
+      "path": "tests/routing.test.ts",
+      "sha256": "47052a42acb550d5c96bfd93b16938aa67b23da89a2e2dab27248975e07925b6"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "17dcfcb96a7484c9af809b85164bea4cec46aaded823b407c4d62d7aff6042f7"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "3e305d336147c58df706c0396769d56368baa08ecb15e2953a3049238743be6d"
+    }
+  ],
+  "scope": "Runtime source/config/tests only; excludes data, test credentials, evidence and mutable status docs."
+}

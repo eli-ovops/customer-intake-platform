@@ -1,0 +1,33 @@
+{
+  "scenario": "D02",
+  "status": "PASSED",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "sourceSha256": "319ec7a73d95603b9731d7316e1e82e80b3d06ba91bd77145fcb3d869c3c3dfe",
+  "completedAt": "2026-10-12T10:24:36.252148+00:00",
+  "evidence": [
+    "core-receipt.json",
+    "browser-receipt.json"
+  ],
+  "checks": [
+    "v1/v2 preserved; stale base rejects; rebased adoption commits once; key payload mismatch rejects; Q/P recover aligned",
+    "same ID changed action does not inherit old passed result",
+    "real stale change 409, explicit rebase/save/adopt UI chain",
+    "source v2 adopted explicitly; old snapshots retained",
+    "Q and plan rebuilt for current source/scope; all results unmeasured"
+  ],
+  "deviations": [],
+  "limitations": [
+    "synthetic local software acceptance only; no real client or production acceptance"
+  ],
+  "supplementalEvidence": [
+    "delete-readd-receipt.json",
+    "delete-readd-command-verified.log",
+    "delete-readd-format-final.log"
+  ],
+  "latestSupplement": {
+    "subcase": "same-requirement-id-delete-readd",
+    "status": "PASSED",
+    "sourceSha256": "d0e3bdb2c32de6f15ba1b255c4c2a3ee9d0b34c5103e5bc278b5a86e1b0843c4",
+    "productUnchanged": true
+  }
+}

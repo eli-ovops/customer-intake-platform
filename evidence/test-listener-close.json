@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-06T02:27:31.166Z",
+  "results": [
+    {
+      "port": 4181,
+      "listening": false
+    },
+    {
+      "port": 4182,
+      "listening": false
+    },
+    {
+      "port": 4183,
+      "listening": false
+    },
+    {
+      "port": 4184,
+      "listening": false
+    }
+  ]
+}

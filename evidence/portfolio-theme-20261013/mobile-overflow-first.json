@@ -1,0 +1,12 @@
+{
+  "width": 390,
+  "scroll": 410,
+  "elements": [
+    {
+      "tag": "FOOTER",
+      "class": "global-footer",
+      "right": 410,
+      "width": 390
+    }
+  ]
+}

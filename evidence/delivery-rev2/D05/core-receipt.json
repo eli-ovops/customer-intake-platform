@@ -1,0 +1,16 @@
+{
+  "scenario": "D05",
+  "status": "CORE_PASSED",
+  "fixture": "legacy-intake-plus-delivery",
+  "startedAt": "2026-10-12T10:16:58.769Z",
+  "completedAt": "2026-10-12T10:16:59.317Z",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/D05-1791800215969",
+  "checks": [
+    "delivery route and affected legacy detail/export/notes/stage/auth APIs work on synthetic roots"
+  ],
+  "deviations": [],
+  "limitations": [
+    "browser/cold-start evidence is collected separately; CORE_PASSED is not full scenario acceptance"
+  ]
+}

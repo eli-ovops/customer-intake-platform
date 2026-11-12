@@ -1,0 +1,18 @@
+{
+  "status": "PASSED",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/omv61fyn3",
+  "security": [
+    "only local trusted approval can mint owner session",
+    "owner read succeeds before customer handoff",
+    "customer handoff revokes current owner cookie and pending approval",
+    "own customer draft still saves",
+    "direct internal navigation and anonymous local-session do not grant owner",
+    "old cookie replay rejected; browser back shows authorization screen",
+    "fresh anonymous browser cannot read history",
+    "explicit local reapproval restores internal access"
+  ],
+  "socketPermissions": "0600 in private auth root",
+  "captures": [],
+  "pageErrors": [],
+  "at": "2026-10-13T02:04:50.216Z"
+}

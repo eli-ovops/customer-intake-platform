@@ -1,0 +1,23 @@
+{
+  "scenario": "D05",
+  "status": "PASSED",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "sourceSha256": "319ec7a73d95603b9731d7316e1e82e80b3d06ba91bd77145fcb3d869c3c3dfe",
+  "completedAt": "2026-10-12T10:24:36.252148+00:00",
+  "evidence": [
+    "core-receipt.json",
+    "browser-receipt.json",
+    "launcher-receipt.json",
+    "../legacy-browser-verified.log"
+  ],
+  "checks": [
+    "delivery route and affected legacy detail/export/notes/stage/auth APIs work on synthetic roots",
+    "actual Node runtime closed and reopened on same synthetic root, saved revision retained",
+    "old detail entry/auth and new delivery route work after cold reopen; keyboard target exists",
+    "full old questionnaire Playwright suite recorded separately"
+  ],
+  "deviations": [],
+  "limitations": [
+    "synthetic local software acceptance only; no real client or production acceptance"
+  ]
+}

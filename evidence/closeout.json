@@ -1,0 +1,11 @@
+{
+  "endedAt": "2026-10-06T02:27:31.189Z",
+  "executionStartedAt": "2026-10-06T01:53:18.000Z",
+  "elapsedWallSeconds": 2054,
+  "activeExecutionUpperBoundSeconds": 2054,
+  "budgetSeconds": 28800,
+  "remainingLowerBoundSeconds": 26746,
+  "waitDeductionSeconds": 0,
+  "status": "awaiting-pmo-acceptance",
+  "temporaryFilesDeleted": []
+}

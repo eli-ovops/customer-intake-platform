@@ -1,0 +1,100 @@
+{
+  "status": "UI_INCREMENT_PASSED",
+  "completedAt": "2026-10-12T10:53:22.441Z",
+  "scope": "User-authorized local synthetic passwordless entry and UI/UX redesign",
+  "style": "简洁专业",
+  "sourceSha256": "80da2e9061df59dee0c20350e65c38fa83cea0c5f40de903b4736156a385caf5",
+  "runtime": {
+    "producerApp": "eli-fde-delivery",
+    "appVersion": "0.2.0",
+    "pid": 50645,
+    "startedAt": "2026-10-12T10:51:54.727Z",
+    "node": "v22.16.0",
+    "runtime": "/Users/USER/.local/nodejs/node-v22.16.0-darwin-arm64/bin/node",
+    "projectRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform",
+    "dataRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/delivery-demo-20261012",
+    "authRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/delivery-demo-20261012/auth",
+    "port": 4180,
+    "url": "http://127.0.0.1:4180",
+    "entry": "http://127.0.0.1:4180/admin/intakes/e569aa8f-2aea-4f29-9dc5-fe8b7c61123a/delivery",
+    "syntheticOnly": true
+  },
+  "checks": {
+    "unitAndApi": "19/19 passed, including opt-in local session + CSRF/Origin + default auth regression",
+    "legacyBrowser": "7/7 passed",
+    "deliveryBrowser": "D01-D05 passed with tab-aware native interactions, exports/revoke/restore and dirty rescue",
+    "visual": {
+      "status": "PASSED",
+      "completedAt": "2026-10-12T10:51:58.803Z",
+      "checks": [
+        "fresh desktop session enters /admin from /admin/login without credentials",
+        "search and empty state remain usable",
+        "native keyboard tabs and quote state visible",
+        "fresh 390px session, no horizontal overflow, reduced-motion supported",
+        "unsaved edits survive tab switches; saved edits survive reload in separate synthetic fixture"
+      ],
+      "pageErrors": [],
+      "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/ui-refresh-1791802318048"
+    },
+    "build": "PASSED",
+    "detector": "[]; one bounded run"
+  },
+  "evidence": [
+    "evidence/ui-refresh-api.log",
+    "evidence/ui-refresh-legacy-browser-verified.log",
+    "evidence/ui-refresh-browser-confirmed.log",
+    "evidence/ui-refresh-visual-final.log",
+    "evidence/ui-refresh-build-final.log",
+    ".impeccable/review/receipt.json"
+  ],
+  "boundaries": {
+    "realCustomerData": "NOT_ACCESSED",
+    "publicDeploy": "NOT_PERFORMED",
+    "defaultAndRestoredRoots": "password auth preserved",
+    "goalActivation": "prior unfinished goal remains separate"
+  },
+  "review": {
+    "disposition": "ship",
+    "scope": "independent static UI review of desktop/mobile list and delivery first viewport",
+    "advisories": "light rail focus ring and static inner toolbar implemented; mobile CSV density is nonblocking",
+    "suggestionsVerdict": "two focused fixes passed independent follow-up review",
+    "nonblockingAdvisory": "mobile CSV density may be reduced in a future user-requested iteration"
+  },
+  "designDocumentation": {
+    "files": [
+      "DESIGN.md",
+      ".impeccable/design.json"
+    ],
+    "schemaVersion": 2,
+    "componentCount": 6
+  },
+  "followUp": {
+    "completedAt": "2026-10-12T11:05:56.531Z",
+    "sourceSha256": "50e930100ad28ee803607a4bebc6507baf7d50d87d65aa17dbb68b642878e5e0",
+    "scope": "Mobile filter density, CSV location and sidebar active state",
+    "visual": {
+      "status": "PASSED",
+      "completedAt": "2026-10-12T11:04:51.729Z",
+      "checks": [
+        "fresh desktop session enters /admin from /admin/login without credentials",
+        "search and empty state remain usable",
+        "CSV download remains available from the list heading",
+        "native keyboard tabs and quote state visible",
+        "first customer record fits fully within the 390x844 viewport; y=686",
+        "fresh 390px session, no horizontal overflow, reduced-motion supported",
+        "unsaved edits survive tab switches; saved edits survive reload in separate synthetic fixture"
+      ],
+      "pageErrors": [],
+      "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/ui-refresh-1791803089984"
+    },
+    "build": "evidence/ui-followup-build.log",
+    "log": "evidence/ui-followup-visual.log",
+    "backend": "unchanged; prior API evidence retained",
+    "review": {
+      "disposition": "ship",
+      "scope": "targeted mobile density and active navigation review",
+      "materialFindings": [],
+      "documentation": "DESIGN.md and schemaVersion2 sidecar updated"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "scenario": "D02",
+  "status": "BROWSER_PASSED",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "fixture": "browser-qinghe",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/browser-1791813624372",
+  "completedAt": "2026-10-12T14:00:27.714Z",
+  "checks": [
+    "real stale change 409, explicit rebase/save/adopt UI chain",
+    "source v2 adopted explicitly; old snapshots retained",
+    "Q and plan rebuilt for current source/scope; all results unmeasured"
+  ],
+  "pageErrors": [],
+  "deviations": []
+}

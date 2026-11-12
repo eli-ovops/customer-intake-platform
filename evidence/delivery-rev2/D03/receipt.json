@@ -1,0 +1,28 @@
+{
+  "scenario": "D03",
+  "status": "PASSED",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "sourceSha256": "319ec7a73d95603b9731d7316e1e82e80b3d06ba91bd77145fcb3d869c3c3dfe",
+  "completedAt": "2026-10-12T10:24:36.252148+00:00",
+  "evidence": [
+    "core-receipt.json",
+    "browser-receipt.json"
+  ],
+  "checks": [
+    "401/403/400/409/413, cross-customer and failed write leave no partial state",
+    "same browser-cookie jar: root A/B isolated, logout A preserves B",
+    "second writer and lost root refuse; no empty root/database reconstructed",
+    "capacity adapter rejects growth but reserved metadata permits revocation",
+    "missing delivery degrades only its module; legacy/auth valid; expired sessions rejected; no empty delivery recreated",
+    "401 leaves all dirty scope/requirement/quote/change/result content",
+    "actual browser download contains all dirty fields and unsubmitted marker",
+    "server revision unchanged; pending request queried safely"
+  ],
+  "deviations": [],
+  "limitations": [
+    "synthetic local software acceptance only; no real client or production acceptance"
+  ],
+  "supplementalEvidence": [
+    "bounded-result-query-verified.log"
+  ]
+}

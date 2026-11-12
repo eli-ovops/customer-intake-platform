@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "at": "2026-10-13T05:24:26.327Z",
+  "fixtureRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/direct-workbench-1791869064116",
+  "checks": [
+    "login URL directly enters workbench and refresh works",
+    "no authorization broker/socket",
+    "customer routes blocked even with owner cookies",
+    "customer can save/read own questionnaire but cannot read other client",
+    "simple/detailed no internal links or client history",
+    "cross-origin bootstrap and missing CSRF rejected",
+    "returning from questionnaire enters workbench directly"
+  ],
+  "pageErrors": []
+}

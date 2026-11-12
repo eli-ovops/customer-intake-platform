@@ -1,0 +1,61 @@
+{
+  "status": "PASSED",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/customer-isolation-1791853961207",
+  "checks": [
+    "all internal routes forbidden even with valid owner cookie",
+    "anonymous auth profile; customer cannot create owner session",
+    "own draft save/read allowed; other IDs/capabilities denied",
+    "internal owner records remain usable",
+    "simple/detailed at 1440/390 contain no admin links, side rail or historical clients"
+  ],
+  "negative": [
+    "/admin",
+    "/admin/intakes/new/edit",
+    "/api/admin/intakes",
+    "/api/admin/intakes/eb7785a8-ad24-4511-893e-83456a49e8af",
+    "/api/admin/export.csv",
+    "/api/admin/intakes/eb7785a8-ad24-4511-893e-83456a49e8af/export?format=json",
+    "/api/admin/intakes/eb7785a8-ad24-4511-893e-83456a49e8af/delivery",
+    "/api/admin/delivery-system/status",
+    "/API/ADMIN/intakes",
+    "/api%2fadmin/intakes",
+    "/api/auth/local-session",
+    "/api/auth/login"
+  ],
+  "pageErrors": [],
+  "at": "2026-10-13T01:12:43.650Z",
+  "sourceSha256": "e004cfd4de73b9193f25ff66d37d4a235093aa1364bc09f42808e9f0c2877126",
+  "runtime": {
+    "producerApp": "eli-fde-delivery",
+    "appVersion": "0.2.0",
+    "pid": 99114,
+    "startedAt": "2026-10-13T01:12:40.159Z",
+    "node": "v22.16.0",
+    "runtime": "/Users/USER/.local/nodejs/node-v22.16.0-darwin-arm64/bin/node",
+    "projectRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform",
+    "dataRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/real-projects-20261012",
+    "authRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/real-projects-20261012/auth",
+    "port": 4181,
+    "url": "http://127.0.0.1:4181",
+    "entry": "http://127.0.0.1:4181/admin",
+    "syntheticOnly": false,
+    "customerPort": 4182,
+    "customerUrl": "http://127.0.0.1:4182"
+  },
+  "liveSmoke": {
+    "status": "PASSED",
+    "internalVisibleProjects": 4,
+    "customerAdminAndExport": "403 even with owner cookie",
+    "customerProfile": "anonymous",
+    "ownerRootRedirect": "customer only",
+    "userTab": 3,
+    "url": "http://127.0.0.1:4182/"
+  },
+  "regression": {
+    "passed": 19,
+    "failed": 0,
+    "log": "api-regression-final.log"
+  },
+  "quarantine": "test-quarantine.json",
+  "formalPMO": "not self-signed"
+}

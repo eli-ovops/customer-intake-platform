@@ -1,0 +1,326 @@
+{
+  "status": "REQUIREMENTS_VERIFIED_PMO_ACCEPTED",
+  "auditedAt": "2026-10-12T12:14:06.532Z",
+  "sourceSha256": "d0e3bdb2c32de6f15ba1b255c4c2a3ee9d0b34c5103e5bc278b5a86e1b0843c4",
+  "previousGoalTurn": "progress: submission feedback implemented and verified",
+  "goalStatus": "complete (update_goal confirmed)",
+  "goalActivationHistory": "old blocked record superseded by current resumed active goal; no new goal created",
+  "budget": {
+    "maximumSeconds": 43200,
+    "rev2StartedAt": "2026-10-12T08:43:45.785Z",
+    "conservativeWallClockUpperSeconds": 12621,
+    "goalCounterSeparate": true
+  },
+  "runtime": {
+    "producerApp": "eli-fde-delivery",
+    "appVersion": "0.2.0",
+    "pid": 50645,
+    "startedAt": "2026-10-12T10:51:54.727Z",
+    "node": "v22.16.0",
+    "runtime": "/Users/USER/.local/nodejs/node-v22.16.0-darwin-arm64/bin/node",
+    "projectRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform",
+    "dataRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/delivery-demo-20261012",
+    "authRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/delivery-demo-20261012/auth",
+    "port": 4180,
+    "url": "http://127.0.0.1:4180",
+    "entry": "http://127.0.0.1:4180/admin/intakes/e569aa8f-2aea-4f29-9dc5-fe8b7c61123a/delivery",
+    "syntheticOnly": true
+  },
+  "changes": {
+    "core": [
+      {
+        "path": "server/delivery-fixture.ts",
+        "unchangedFromCore": true
+      },
+      {
+        "path": "server/delivery-model.ts",
+        "unchangedFromCore": true
+      },
+      {
+        "path": "server/delivery-packages.ts",
+        "unchangedFromCore": true
+      },
+      {
+        "path": "server/delivery-root.ts",
+        "unchangedFromCore": true
+      },
+      {
+        "path": "server/delivery-store.ts",
+        "unchangedFromCore": true
+      }
+    ],
+    "serverSinceAuth": [
+      {
+        "path": "server/app.ts",
+        "unchangedSinceAuthVerification": true
+      },
+      {
+        "path": "server/db.ts",
+        "unchangedSinceAuthVerification": true
+      },
+      {
+        "path": "server/delivery-fixture.ts",
+        "unchangedSinceAuthVerification": true
+      },
+      {
+        "path": "server/delivery-model.ts",
+        "unchangedSinceAuthVerification": true
+      },
+      {
+        "path": "server/delivery-packages.ts",
+        "unchangedSinceAuthVerification": true
+      },
+      {
+        "path": "server/delivery-root.ts",
+        "unchangedSinceAuthVerification": true
+      },
+      {
+        "path": "server/delivery-runtime.ts",
+        "unchangedSinceAuthVerification": true
+      },
+      {
+        "path": "server/delivery-store.ts",
+        "unchangedSinceAuthVerification": true
+      },
+      {
+        "path": "server/index.ts",
+        "unchangedSinceAuthVerification": true
+      },
+      {
+        "path": "server/summary.ts",
+        "unchangedSinceAuthVerification": true
+      }
+    ],
+    "sourceMatched": true
+  },
+  "artifactChecks": [
+    {
+      "path": "Start-Delivery.command",
+      "exists": true,
+      "bytes": 636
+    },
+    {
+      "path": "dist/index.html",
+      "exists": true,
+      "bytes": 628
+    },
+    {
+      "path": "docs/02_PRD.md",
+      "exists": true,
+      "bytes": 3864
+    },
+    {
+      "path": "docs/EXECUTION_PRD-client-delivery-20261012.md",
+      "exists": true,
+      "bytes": 20287
+    },
+    {
+      "path": "docs/DELIVERY_RUNBOOK-20261012.md",
+      "exists": true,
+      "bytes": 5956
+    },
+    {
+      "path": "docs/DELIVERY_ACCEPTANCE-20261012.md",
+      "exists": true,
+      "bytes": 6375
+    },
+    {
+      "path": "DESIGN.md",
+      "exists": true,
+      "bytes": 11296
+    },
+    {
+      "path": ".impeccable/design.json",
+      "exists": true,
+      "bytes": 10627
+    },
+    {
+      "path": "evidence/delivery-rev2/D05/launcher-internal.json",
+      "exists": true,
+      "bytes": 9426
+    },
+    {
+      "path": "evidence/delivery-rev2/D05/launcher-internal.md",
+      "exists": true,
+      "bytes": 6289
+    },
+    {
+      "path": "evidence/delivery-rev2/D05/launcher-customer-draft.md",
+      "exists": true,
+      "bytes": 1293
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "D01",
+      "coreStatus": "CORE_PASSED",
+      "coreChecks": [
+        "source/scope/quote/plan references valid; repeated factual title input=0; unknown sale remains unknown",
+        "real databases closed/reopened and saved state identical",
+        "G1-G3 exact; internal cost does not add to sale"
+      ],
+      "browserStatus": "BROWSER_PASSED",
+      "browserChecks": [
+        "native UI saved goal, frozen S2, quote Q2 and new plan; reload stable",
+        "1440/390px no horizontal overflow; inherited titles not retyped",
+        "pending sales distinct from internal 150.00 subtotal"
+      ]
+    },
+    {
+      "id": "D02",
+      "coreStatus": "CORE_PASSED",
+      "coreChecks": [
+        "v1/v2 preserved; stale base rejects; rebased adoption commits once; key payload mismatch rejects; Q/P recover aligned",
+        "same ID changed action does not inherit old passed result"
+      ],
+      "browserStatus": "BROWSER_PASSED",
+      "browserChecks": [
+        "real stale change 409, explicit rebase/save/adopt UI chain",
+        "source v2 adopted explicitly; old snapshots retained",
+        "Q and plan rebuilt for current source/scope; all results unmeasured"
+      ]
+    },
+    {
+      "id": "D03",
+      "coreStatus": "CORE_PASSED",
+      "coreChecks": [
+        "401/403/400/409/413, cross-customer and failed write leave no partial state",
+        "same browser-cookie jar: root A/B isolated, logout A preserves B",
+        "second writer and lost root refuse; no empty root/database reconstructed",
+        "capacity adapter rejects growth but reserved metadata permits revocation",
+        "missing delivery degrades only its module; legacy/auth valid; expired sessions rejected; no empty delivery recreated"
+      ],
+      "browserStatus": "BROWSER_PASSED",
+      "browserChecks": [
+        "401 leaves all dirty scope/requirement/quote/change/result content",
+        "actual browser download contains all dirty fields and unsubmitted marker",
+        "server revision unchanged; pending request queried safely"
+      ]
+    },
+    {
+      "id": "D04",
+      "coreStatus": "CORE_PASSED",
+      "coreChecks": [
+        "actual internal files and independent customer whitelist; revoke after lock and after complete blocks; partial files never complete",
+        "failed-to-persist revoke and restart do not revive public approval",
+        "application write barrier covers legacy/delivery; two real backup databases restored with fresh auth; wrong hash and unsupported path refuse"
+      ],
+      "browserStatus": "BROWSER_PASSED",
+      "browserChecks": [
+        "actual internal JSON and separate customer Markdown downloaded and inspected",
+        "completed customer download denied after revoke",
+        "real two-db backup restored, independent AUTH_ROOT/cookie namespace in same browser; logout A preserves B",
+        "historic public approval does not revive in restore"
+      ]
+    },
+    {
+      "id": "D05",
+      "coreStatus": "CORE_PASSED",
+      "coreChecks": [
+        "delivery route and affected legacy detail/export/notes/stage/auth APIs work on synthetic roots"
+      ],
+      "browserStatus": "BROWSER_PASSED",
+      "browserChecks": [
+        "actual Node runtime closed and reopened on same synthetic root, saved revision retained",
+        "old detail entry/auth and new delivery route work after cold reopen; keyboard target exists",
+        "full old questionnaire Playwright suite recorded separately"
+      ]
+    }
+  ],
+  "dependencyAudit": {
+    "scope": "locked current project dependencies, no install or upgrade",
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "result": "PASSED"
+  },
+  "remaining": [],
+  "exclusions": [
+    "real customer acceptance",
+    "real AI integration",
+    "public deployment",
+    "other two workbench implementations"
+  ],
+  "limitations": [
+    "historic core evidence reused only for unchanged implementation; changed questionnaire/auth/UI have subsequent scoped evidence",
+    "do not treat user repeated continue as formal PMO signoff"
+  ],
+  "blockedAudit": {
+    "condition": "Final PMO signoff absent; sending prepared packet awaits direct user authorization",
+    "consecutiveGoalObservations": 3,
+    "lastClassification": "no_progress",
+    "previousGoalTurnClassification": "no_progress",
+    "revalidatedAt": "2026-10-12T12:20:08.696Z",
+    "ownerThread": "01a123a1-2a77-77d3-a812-dcf71bd743d6",
+    "ownerStatus": "idle",
+    "lastOwnerTurn": "01a12fae-5190-72c2-ae56-39d490ac6118",
+    "newAcceptanceEvidence": false,
+    "goalStatus": "blocked (update_goal confirmed)",
+    "notes": "Idle PMO is not a verified live wait. No duplicate approval question, no unsupported messages, no new features or repeated valid tests.",
+    "resumeCondition": "direct human authorization to send prepared packet to PMO, or new authoritative PMO signoff",
+    "sendingPermission": "granted by user; previous authorization condition resolved",
+    "currentClassification": "progress: formal PMO signoff persisted and inspected",
+    "resolvedAt": "2026-10-12T13:32:22.898675+00:00"
+  },
+  "PMOReviewRequest": {
+    "authorizedBy": "direct user questionnaire reply: 允许发送并请 PMO 验收（推荐）",
+    "sentAt": "2026-10-12T12:31:07.277Z",
+    "threadId": "01a123a1-2a77-77d3-a812-dcf71bd743d6",
+    "tool": "send_message_to_thread",
+    "delivery": "tool returned target threadId",
+    "acceptance": "formal PMO software acceptance passed; signed ledger inspected",
+    "turnId": "01a13018-180f-7183-90fe-42a1e4468e2c",
+    "cursor": "908dc1d8-1bed-4fc3-a656-cc0aeea02144:3",
+    "latestStage": "formal signoff persisted",
+    "interruptedTurn": {
+      "id": "01a13018-180f-7183-90fe-42a1e4468e2c",
+      "status": "failed",
+      "reason": "stream disconnected before completion",
+      "requestId": "5594c347-cc1c-4c6e-aa05-96d7314fd04a",
+      "signoffFound": false
+    },
+    "resumedTurnId": "01a1303f-182c-71d3-8416-b4e4097e5d5d",
+    "resumedFailure": {
+      "turnId": "01a1303f-182c-71d3-8416-b4e4097e5d5d",
+      "status": "failed",
+      "reason": "Error running remote compact task: stream disconnected before completion",
+      "requestId": "07bfa8bb-79b1-406a-8895-be1bc78bae14"
+    },
+    "next": "owner goal completion"
+  },
+  "PMORequestedSupplement": {
+    "subcase": "same-requirement-id-delete-readd",
+    "status": "PASSED",
+    "receipt": "evidence/delivery-rev2/D02/delete-readd-receipt.json",
+    "correction": "previous aggregate audit overstated delete/readd coverage; actual missing subcase now separately measured",
+    "changedFiles": [
+      "scripts/verify-delivery-delete-readd.ts",
+      "scripts/verify-delivery.ts"
+    ],
+    "productUnchanged": true
+  },
+  "finalAcceptance": {
+    "verifiedAt": "2026-10-12T13:32:22.898675+00:00",
+    "ownerThread": "01a123a1-2a77-77d3-a812-dcf71bd743d6",
+    "turnId": "01a13046-7c71-7121-8c95-ca8e45967bc4",
+    "ledgerPath": "/Users/USER/Documents/eli/outputs/三项目执行PRD-20261012/派单与验收.md",
+    "ledgerSha256": "1347c953c4e647b0a8f373132ea5fbfd046686d73bb4eadf12e46631bdcd7328",
+    "sourceSha256": "d0e3bdb2c32de6f15ba1b255c4c2a3ee9d0b34c5103e5bc278b5a86e1b0843c4",
+    "scope": "local synthetic software, original R1-R8, Rev2 B1-B4/D01-D05/G1-G3 and authorized UI increments",
+    "mandatoryGaps": []
+  },
+  "goalCompletion": {
+    "status": "complete",
+    "confirmedBy": "update_goal",
+    "threadId": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+    "objective": "目标模式-自主模式",
+    "tokensUsed": 731536,
+    "timeUsedSeconds": 5158,
+    "updatedAt": 1791811942
+  }
+}

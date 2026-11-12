@@ -1,0 +1,58 @@
+{
+  "status": "PASSED",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/omv61bnp6",
+  "security": [
+    "only local trusted approval can mint owner session",
+    "owner read succeeds before customer handoff",
+    "customer handoff revokes current owner cookie and pending approval",
+    "own customer draft still saves",
+    "direct internal navigation and anonymous local-session do not grant owner",
+    "old cookie replay rejected; browser back shows authorization screen",
+    "fresh anonymous browser cannot read history",
+    "explicit local reapproval restores internal access"
+  ],
+  "socketPermissions": "0600 in private auth root",
+  "captures": [
+    {
+      "width": 1440,
+      "tokens": {
+        "background": "rgb(17, 18, 20)",
+        "ink": "rgb(237, 237, 240)",
+        "accent": "#9698ff"
+      },
+      "modes": [
+        "simple",
+        "detailed"
+      ],
+      "dropdown": true
+    },
+    {
+      "width": 390,
+      "tokens": {
+        "background": "rgb(17, 18, 20)",
+        "ink": "rgb(237, 237, 240)",
+        "accent": "#9698ff"
+      },
+      "modes": [
+        "simple",
+        "detailed"
+      ],
+      "dropdown": true
+    },
+    {
+      "width": 1317,
+      "tokens": {
+        "background": "rgb(17, 18, 20)",
+        "ink": "rgb(237, 237, 240)",
+        "accent": "#9698ff"
+      },
+      "modes": [
+        "simple",
+        "detailed"
+      ],
+      "dropdown": true
+    }
+  ],
+  "pageErrors": [],
+  "at": "2026-10-13T02:01:30.618Z"
+}

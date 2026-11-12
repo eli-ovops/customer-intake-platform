@@ -1,0 +1,562 @@
+{
+  "recordedAt": "2026-10-06T10:25:02+08:00",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform",
+  "directories": [
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/.npm-cache",
+      "purpose": "项目内依赖缓存239M，可复用保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/node_modules",
+      "purpose": "项目内依赖184M，运行构建需要"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/dist",
+      "purpose": "本机已构建产物2.4M，服务依赖"
+    }
+  ],
+  "files": [
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/admin-setup.txt",
+      "bytes": 125,
+      "purpose": "交付数据/初始凭据，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "交付数据/初始凭据，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/intake.sqlite-wal",
+      "bytes": 0,
+      "purpose": "交付数据/初始凭据，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "交付数据/初始凭据，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/restored-qa-1791253389675/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/restored-qa-1791253389675/intake.sqlite-wal",
+      "bytes": 0,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/restored-qa-1791253389675/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/restored-qa-1791253265142/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/restored-qa-1791253265142/intake.sqlite-wal",
+      "bytes": 0,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/restored-qa-1791253265142/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/backups/intake-2026-10-06T02-23-09.661Z.sqlite",
+      "bytes": 86016,
+      "purpose": "备份，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/backups/intake-2026-10-06T02-23-09.661Z.sqlite-wal",
+      "bytes": 0,
+      "purpose": "备份，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/backups/intake-2026-10-06T02-23-09.661Z.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "备份，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/backups/intake-2026-10-06T02-21-05.128Z.sqlite-wal",
+      "bytes": 0,
+      "purpose": "备份，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/backups/intake-2026-10-06T02-21-05.128Z.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "备份，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/backups/intake-2026-10-06T02-21-05.128Z.sqlite",
+      "bytes": 86016,
+      "purpose": "备份，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-credential.json",
+      "bytes": 143,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791252744891/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791252744891/intake.sqlite-wal",
+      "bytes": 366712,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791252744891/intake.sqlite",
+      "bytes": 4096,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791252835245/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791252835245/intake.sqlite-wal",
+      "bytes": 416152,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791252835245/intake.sqlite",
+      "bytes": 4096,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253347825/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253347825/intake.sqlite-wal",
+      "bytes": 482072,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253347825/intake.sqlite",
+      "bytes": 4096,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791252579697/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791252579697/intake.sqlite-wal",
+      "bytes": 255472,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791252579697/intake.sqlite",
+      "bytes": 4096,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253490808/failure/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253490808/data/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253490808/restore/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253490808/restore/intake.sqlite-wal",
+      "bytes": 0,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253490808/restore/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253341518/failure/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253341518/data/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253341518/restore/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253341518/restore/intake.sqlite-wal",
+      "bytes": 0,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253341518/restore/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791252459806/failure/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791252459806/data/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791252459806/restore/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791252459806/restore/intake.sqlite-wal",
+      "bytes": 0,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791252459806/restore/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253001408/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253001408/intake.sqlite-wal",
+      "bytes": 416152,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253001408/intake.sqlite",
+      "bytes": 4096,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253011918/failure/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253011918/data/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253011918/restore/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253011918/restore/intake.sqlite-wal",
+      "bytes": 0,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791253011918/restore/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253120889/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253120889/intake.sqlite-wal",
+      "bytes": 469712,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253120889/intake.sqlite",
+      "bytes": 4096,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253067600/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253067600/intake.sqlite-wal",
+      "bytes": 259592,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253067600/intake.sqlite",
+      "bytes": 4096,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253224917/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253224917/intake.sqlite-wal",
+      "bytes": 482072,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253224917/intake.sqlite",
+      "bytes": 4096,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791252430470/failure/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791252430470/data/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791252430470/restore/intake.sqlite-shm",
+      "bytes": 32768,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791252430470/restore/intake.sqlite-wal",
+      "bytes": 0,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/api-1791252430470/restore/intake.sqlite",
+      "bytes": 86016,
+      "purpose": "虚构测试与恢复副本，保护保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/source-secret-scan.json",
+      "bytes": 146,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/source-manifest.json",
+      "bytes": 4202,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/mobile-questionnaire.png",
+      "bytes": 111111,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/operations-test.log",
+      "bytes": 273,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/browser-test-fourth.log",
+      "bytes": 2689,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/operations-restore.json",
+      "bytes": 603,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/local-entry.png",
+      "bytes": 159209,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/format.log",
+      "bytes": 488,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/format-check.log",
+      "bytes": 66,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/local-listener.txt",
+      "bytes": 159,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/format-final.log",
+      "bytes": 46,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/audit-production.json",
+      "bytes": 364,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/browser-network.json",
+      "bytes": 2458,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/local-service.log",
+      "bytes": 2361,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/browser-test-third.log",
+      "bytes": 2576,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/licenses.log",
+      "bytes": 133,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/browser-test.log",
+      "bytes": 1310,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/format-api-final.log",
+      "bytes": 23,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/browser-test-second.log",
+      "bytes": 15508,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/desktop-questionnaire.png",
+      "bytes": 165548,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/mobile-save-failure.png",
+      "bytes": 136599,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/format-browser.log",
+      "bytes": 70,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/virtual-export.md",
+      "bytes": 2471,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/format-ensure-admin.log",
+      "bytes": 29,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/audit-all.json",
+      "bytes": 364,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/desktop-dashboard.png",
+      "bytes": 142477,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/api-test.log",
+      "bytes": 2916,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/format-operations.log",
+      "bytes": 34,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/browser-test-initial.log",
+      "bytes": 35770,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/browser-results.json",
+      "bytes": 5245,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/stage-diagnostic.json",
+      "bytes": 1405,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/mobile-dashboard.png",
+      "bytes": 71183,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/format-final-ops.log",
+      "bytes": 71,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/desktop-branches.png",
+      "bytes": 151111,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/format-manifest.log",
+      "bytes": 35,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/browser-test-stage-diagnostic.log",
+      "bytes": 2403,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/format-latest.log",
+      "bytes": 46,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/local-browser.json",
+      "bytes": 314,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/live-data-scope.json",
+      "bytes": 102,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/mobile-record.png",
+      "bytes": 152637,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/desktop-record.png",
+      "bytes": 269944,
+      "purpose": "验收原始证据，保留"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/FDE/customer-intake-platform/evidence/build.log",
+      "bytes": 753,
+      "purpose": "验收原始证据，保留"
+    }
+  ],
+  "deleted": [],
+  "reason": "没有删除项；数据库/备份/证据/缓存保留，未清理用户或其他项目文件"
+}

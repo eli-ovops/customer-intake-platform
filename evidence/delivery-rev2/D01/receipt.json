@@ -1,0 +1,23 @@
+{
+  "scenario": "D01",
+  "status": "PASSED",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "sourceSha256": "319ec7a73d95603b9731d7316e1e82e80b3d06ba91bd77145fcb3d869c3c3dfe",
+  "completedAt": "2026-10-12T10:24:36.252148+00:00",
+  "evidence": [
+    "core-receipt.json",
+    "browser-receipt.json"
+  ],
+  "checks": [
+    "source/scope/quote/plan references valid; repeated factual title input=0; unknown sale remains unknown",
+    "real databases closed/reopened and saved state identical",
+    "G1-G3 exact; internal cost does not add to sale",
+    "native UI saved goal, frozen S2, quote Q2 and new plan; reload stable",
+    "1440/390px no horizontal overflow; inherited titles not retyped",
+    "pending sales distinct from internal 150.00 subtotal"
+  ],
+  "deviations": [],
+  "limitations": [
+    "synthetic local software acceptance only; no real client or production acceptance"
+  ]
+}

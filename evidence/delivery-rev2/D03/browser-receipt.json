@@ -1,0 +1,16 @@
+{
+  "scenario": "D03",
+  "status": "BROWSER_PASSED",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "fixture": "browser-qinghe",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/browser-1791800219504",
+  "completedAt": "2026-10-12T10:17:02.459Z",
+  "checks": [
+    "401 leaves all dirty scope/requirement/quote/change/result content",
+    "actual browser download contains all dirty fields and unsubmitted marker",
+    "server revision unchanged; pending request queried safely"
+  ],
+  "pageErrors": [],
+  "deviations": [],
+  "rescueFile": "unsubmitted.txt"
+}

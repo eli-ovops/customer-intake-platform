@@ -1,0 +1,18 @@
+{
+  "scenario": "D04",
+  "status": "CORE_PASSED",
+  "fixture": "two-db-batch/public-revoke",
+  "startedAt": "2026-10-12T14:00:22.427Z",
+  "completedAt": "2026-10-12T14:00:23.947Z",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/D04-1791813622426",
+  "checks": [
+    "actual internal files and independent customer whitelist; revoke after lock and after complete blocks; partial files never complete",
+    "failed-to-persist revoke and restart do not revive public approval",
+    "application write barrier covers legacy/delivery; two real backup databases restored with fresh auth; wrong hash and unsupported path refuse"
+  ],
+  "deviations": [],
+  "limitations": [
+    "browser/cold-start evidence is collected separately; CORE_PASSED is not full scenario acceptance"
+  ]
+}

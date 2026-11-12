@@ -1,0 +1,17 @@
+{
+  "result": "pass",
+  "url": "http://127.0.0.1:4180/",
+  "adminRedirect": "http://127.0.0.1:4180/admin/login",
+  "blankCustomerRecord": true,
+  "firstStepQuestions": 5,
+  "detailedModeSwitch": true,
+  "pageErrors": [],
+  "requestOrigins": [
+    "http://127.0.0.1:4180"
+  ],
+  "chromeVersion": "154.0.8037.98",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  }
+}

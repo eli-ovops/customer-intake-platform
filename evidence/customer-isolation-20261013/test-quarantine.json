@@ -1,0 +1,14 @@
+{
+  "status": "PASSED",
+  "ids": [
+    "3edd1d4b-bb58-48f0-b41a-6e40cb7e67fb",
+    "f3ad3208-2c72-4604-b77f-982ce623cace",
+    "2398faf0-d21f-408e-b452-8c86a8f789dd",
+    "6d20692c-011f-43c5-b803-9b5118da17a3"
+  ],
+  "reason": "owned regression generated drafts isolated by source-only update; no deletion or replacement",
+  "realProjectRows": 4,
+  "totalRetained": 8,
+  "visibleBusinessRows": 4,
+  "prototypeComparisonFailure": "initial post-update assertion compared object prototypes, not field differences; SQL only changed source; retained rows and audit reread"
+}

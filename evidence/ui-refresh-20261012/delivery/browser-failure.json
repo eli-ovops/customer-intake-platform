@@ -1,0 +1,8 @@
+{
+  "status": "FAILED",
+  "error": "locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: '本阶段目标', exact: true })\u001b[22m\n",
+  "completedAt": "2026-10-12T10:48:00.880Z",
+  "deviations": [
+    "browser verification failed"
+  ]
+}

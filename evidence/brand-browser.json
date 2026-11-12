@@ -1,0 +1,22 @@
+{
+  "result": "pass",
+  "url": "http://127.0.0.1:4180/",
+  "results": [
+    {
+      "width": 1440,
+      "heading": "把 AI 变成企业的生产力。",
+      "brand": "Eli FDE",
+      "firstStepQuestions": 5,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "heading": "把 AI 变成企业的生产力。",
+      "brand": "Eli FDE",
+      "firstStepQuestions": 5,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    }
+  ]
+}

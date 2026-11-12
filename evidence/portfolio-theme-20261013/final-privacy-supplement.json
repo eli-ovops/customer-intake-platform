@@ -1,0 +1,22 @@
+{
+  "status": "PASSED",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/fmv64jd5o",
+  "checks": [
+    "grant and revoke audited without credentials",
+    "paused grant denied, paused revoke immediately denies old cookie without SQL/audit write",
+    "resume flushes deferred revoke and audit",
+    "actual owned process crash during paused revoke; stale SQL session cannot revive in new epoch",
+    "A saves and refreshes own current filling",
+    "same-browser fresh normal B entry and B reload remain blank with zero requests for A even with legacy localStorage",
+    "explicit A revisit and its subsequent reload recover A only; server data preserved"
+  ],
+  "auditActions": [
+    "owner-epoch-start",
+    "owner-session-granted",
+    "owner-session-revoked",
+    "owner-session-granted",
+    "owner-epoch-start"
+  ],
+  "fakeCustomerRecordId": "761de91d-6c9e-4b7c-b397-f75b2387777f",
+  "at": "2026-10-13T03:31:24.724Z"
+}

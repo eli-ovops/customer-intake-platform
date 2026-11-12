@@ -1,0 +1,23 @@
+{
+  "status": "PASSED",
+  "intakeId": "f9faeef8-da33-4e75-86e2-d13182b535fb",
+  "currentIndustry": "",
+  "sourceVersion": 2,
+  "sourceValid": true,
+  "oldVersionPreserved": true,
+  "count": 4,
+  "reopenedHttpVerified": true,
+  "viewports": [
+    1440,
+    390
+  ],
+  "screenshots": [
+    "industry-list-1440.png",
+    "industry-list-390.png",
+    "industry-detail-1440.png",
+    "industry-detail-390.png",
+    "industry-delivery-1440.png",
+    "industry-delivery-390.png"
+  ],
+  "at": "2026-10-12T14:13:45.914Z"
+}

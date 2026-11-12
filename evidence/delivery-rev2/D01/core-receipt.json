@@ -1,0 +1,18 @@
+{
+  "scenario": "D01",
+  "status": "CORE_PASSED",
+  "fixture": "qinghe-v1",
+  "startedAt": "2026-10-12T10:16:55.969Z",
+  "completedAt": "2026-10-12T10:16:56.255Z",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/D01-1791800215969",
+  "checks": [
+    "source/scope/quote/plan references valid; repeated factual title input=0; unknown sale remains unknown",
+    "real databases closed/reopened and saved state identical",
+    "G1-G3 exact; internal cost does not add to sale"
+  ],
+  "deviations": [],
+  "limitations": [
+    "browser/cold-start evidence is collected separately; CORE_PASSED is not full scenario acceptance"
+  ]
+}

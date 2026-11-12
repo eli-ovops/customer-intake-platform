@@ -1,0 +1,98 @@
+{
+  "status": "PASSED",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/omv61zwn4",
+  "security": [
+    "only local trusted approval can mint owner session",
+    "owner read succeeds before customer handoff",
+    "customer handoff revokes current owner cookie and pending approval",
+    "own customer draft still saves",
+    "direct internal navigation and anonymous local-session do not grant owner",
+    "old cookie replay rejected; browser back shows authorization screen",
+    "fresh anonymous browser cannot read history",
+    "explicit local reapproval restores internal access"
+  ],
+  "socketPermissions": "0600 in private auth root",
+  "captures": [
+    {
+      "width": 1440,
+      "tokens": {
+        "background": "rgb(255, 255, 255)",
+        "ink": "rgb(32, 33, 36)",
+        "accent": "#635de5"
+      },
+      "modes": [
+        "simple",
+        "detailed"
+      ],
+      "dropdown": true
+    },
+    {
+      "width": 390,
+      "tokens": {
+        "background": "rgb(255, 255, 255)",
+        "ink": "rgb(32, 33, 36)",
+        "accent": "#635de5"
+      },
+      "modes": [
+        "simple",
+        "detailed"
+      ],
+      "dropdown": true
+    },
+    {
+      "width": 1317,
+      "tokens": {
+        "background": "rgb(255, 255, 255)",
+        "ink": "rgb(32, 33, 36)",
+        "accent": "#635de5"
+      },
+      "modes": [
+        "simple",
+        "detailed"
+      ],
+      "dropdown": true
+    }
+  ],
+  "pageErrors": [],
+  "at": "2026-10-13T02:20:24.574Z",
+  "sourceSha256": "1f5722027f2e20cd23140be6b8299dc182128a6ba5093c6b3788a30f5f40144b",
+  "userDirection": "white background; purple logo/buttons/state accents; type/layout/brand reference supplied personal portfolio",
+  "referenceUrl": "http://[REDACTED_HOST]/sites/portfolio/?pv=374bf42e288f80f56bf7",
+  "referenceObserved": "live CUA page and computed body/font/CTA colors; original site dark, white variant explicitly requested by user",
+  "uiReview": {
+    "disposition": "ship",
+    "scope": "customer UI final palette and consistency; no pixel-copy or production claim",
+    "owner": "ui_finish_review",
+    "documentation": [
+      "DESIGN.md",
+      ".impeccable/design.json"
+    ]
+  },
+  "live": "evidence/portfolio-theme-20261013/live-receipt.json",
+  "ownerSecurityConfirmed": "evidence/portfolio-theme-20261013/owner-security-confirmed.json",
+  "apiRegression": {
+    "passed": 19,
+    "failed": 0,
+    "log": "evidence/portfolio-theme-20261013/api-final.log"
+  },
+  "buildLog": "evidence/portfolio-theme-20261013/build-white-purple.log",
+  "captureLog": "evidence/portfolio-theme-20261013/white-purple-final.log",
+  "ownerLauncherMode": "755",
+  "typecheck": "tsc --noEmit passed after final edits",
+  "boundaries": [
+    "local private owner authorization only; no real-root owner approval was executed by agent",
+    "only registered root and current browser session revoked at customer handoff",
+    "existing four real records and four quarantined test records retained",
+    "no other project edits or server deploy",
+    "no anonymous global unlock; fresh browser stays denied even after owner reapproval"
+  ],
+  "remaining": [
+    "PMO incremental security signoff"
+  ],
+  "generatedArtifacts": [
+    "/tmp/fde-owner-first.log (copied into evidence first-round.log, retained)",
+    "auth/owner-approval-13266.soc (failed owned macOS long-path socket, inactive, retained)",
+    "ephemeral private oa-<PID>.sock (Node-managed close)",
+    "isolated tests/runtime/o* roots for handoff tests"
+  ]
+}

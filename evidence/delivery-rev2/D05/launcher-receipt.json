@@ -1,0 +1,33 @@
+{
+  "scenario": "D05",
+  "status": "LAUNCHER_PASSED",
+  "completedAt": "2026-10-12T10:23:30.174Z",
+  "launchFile": "/Volumes/EXTERNAL/FDE/customer-intake-platform/Start-Delivery.command",
+  "runtime": {
+    "producerApp": "eli-fde-delivery",
+    "appVersion": "0.2.0",
+    "pid": 34278,
+    "startedAt": "2026-10-12T10:23:25.459Z",
+    "node": "v22.16.0",
+    "runtime": "/Users/USER/.local/nodejs/node-v22.16.0-darwin-arm64/bin/node",
+    "projectRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform",
+    "dataRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/delivery-demo-20261012",
+    "authRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/delivery-demo-20261012/auth",
+    "port": 4180,
+    "url": "http://127.0.0.1:4180",
+    "entry": "http://127.0.0.1:4180/admin/intakes/e569aa8f-2aea-4f29-9dc5-fe8b7c61123a/delivery",
+    "syntheticOnly": true
+  },
+  "rootId": "0a495737-25e8-4a87-8805-9982fbf14c3a",
+  "firstLoginChangeHandled": true,
+  "downloads": [
+    "launcher-internal.json",
+    "launcher-internal.md",
+    "launcher-customer-draft.md"
+  ],
+  "pageErrors": [],
+  "deviations": [],
+  "limitations": [
+    "only synthetic local tool; customer business acceptance not inferred"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "scenario": "D02",
+  "subcase": "same-requirement-id-delete-readd",
+  "status": "PASSED",
+  "completedAt": "2026-10-12T13:06:53.202Z",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/D02-delete-readd-1791810412922",
+  "method": "one isolated synthetic SQLite/store action chain plus close/reopen; no product/API/UI changes",
+  "requirementId": "R01",
+  "steps": [
+    {
+      "op": "recordResult",
+      "revision": 9,
+      "scopeId": "4530a81b-99ec-4d95-af1f-c9959e6d642d",
+      "planId": "32a141bc-40c8-4085-ae72-2746f9cac6c7",
+      "requirementIds": [
+        "R01",
+        "R02"
+      ]
+    },
+    {
+      "op": "patch",
+      "revision": 10,
+      "scopeId": "4530a81b-99ec-4d95-af1f-c9959e6d642d",
+      "planId": "32a141bc-40c8-4085-ae72-2746f9cac6c7",
+      "requirementIds": [
+        "R02"
+      ]
+    },
+    {
+      "op": "freezeScope",
+      "revision": 11,
+      "scopeId": "5a971747-9326-45a8-9f27-15f5351c5b97",
+      "planId": "32a141bc-40c8-4085-ae72-2746f9cac6c7",
+      "requirementIds": [
+        "R02"
+      ]
+    },
+    {
+      "op": "buildPlan",
+      "revision": 12,
+      "scopeId": "5a971747-9326-45a8-9f27-15f5351c5b97",
+      "planId": "6c2dfbf0-cf75-473f-9d13-3a8f1b247cc9",
+      "requirementIds": [
+        "R02"
+      ]
+    },
+    {
+      "op": "patch",
+      "revision": 13,
+      "scopeId": "5a971747-9326-45a8-9f27-15f5351c5b97",
+      "planId": "6c2dfbf0-cf75-473f-9d13-3a8f1b247cc9",
+      "requirementIds": [
+        "R02",
+        "R01"
+      ]
+    },
+    {
+      "op": "freezeScope",
+      "revision": 14,
+      "scopeId": "c77b5172-7f76-4cdd-a916-9f62f5942e1e",
+      "planId": "6c2dfbf0-cf75-473f-9d13-3a8f1b247cc9",
+      "requirementIds": [
+        "R02",
+        "R01"
+      ]
+    },
+    {
+      "op": "buildPlan",
+      "revision": 15,
+      "scopeId": "c77b5172-7f76-4cdd-a916-9f62f5942e1e",
+      "planId": "407488fe-f4ff-484f-8ea3-3c25ceb5af7e",
+      "requirementIds": [
+        "R02",
+        "R01"
+      ]
+    }
+  ],
+  "actual": {
+    "oldResult": {
+      "action": "可查产品并提交咨询；中文界面",
+      "actor": "合成D02补测Owner",
+      "created": "2026-10-12T13:06:53.185Z",
+      "evidence": "fixture:D02-delete-readd:original-result",
+      "id": "57a582b2-c452-4d55-8655-3f5a1c41f50d",
+      "requirementId": "R01",
+      "result": "虚构：删除前的实际验收记录",
+      "status": "passed",
+      "testedVersion": "virtual-before-delete",
+      "title": "产品展示与咨询"
+    },
+    "newResult": {
+      "action": "可查产品并提交咨询；中文界面",
+      "actor": "",
+      "created": "",
+      "evidence": "",
+      "id": "375976aa-f296-4807-8a2d-0cab89ba5b08",
+      "requirementId": "R01",
+      "result": "",
+      "status": "unmeasured",
+      "testedVersion": "",
+      "title": "产品展示与咨询"
+    },
+    "oldPassedPlanId": "32a141bc-40c8-4085-ae72-2746f9cac6c7",
+    "removedPlanId": "6c2dfbf0-cf75-473f-9d13-3a8f1b247cc9",
+    "readdedPlanId": "407488fe-f4ff-484f-8ea3-3c25ceb5af7e"
+  },
+  "checks": [
+    "recorded passed result with actual result/evidence/tested version/actor/time",
+    "removeIds removed R01 from saved state and frozen rebuilt plan",
+    "identical original R01 readded and saved/frozen/rebuilt",
+    "new item identity and unmeasured status; all old result/evidence/version/actor/time fields empty",
+    "old source scope, passed plan/result and removed plan remain byte-equivalent readable snapshots",
+    "after database close/reopen current unmeasured plan and old passed history remain"
+  ],
+  "deviations": [],
+  "sourceSha256": "d0e3bdb2c32de6f15ba1b255c4c2a3ee9d0b34c5103e5bc278b5a86e1b0843c4",
+  "sourceDelta": {
+    "changedFiles": [
+      "scripts/verify-delivery-delete-readd.ts",
+      "scripts/verify-delivery.ts"
+    ],
+    "productCoreServerUiUnchanged": true
+  },
+  "verificationCommand": "npm run verify:delivery -- --scenario D02 --delete-readd-only"
+}

@@ -1,0 +1,160 @@
+{
+  "status": "UNSUBMITTED",
+  "intakeId": "56e29fa0-732f-4801-b982-2ea798315fdb",
+  "baseRevision": 20,
+  "dirtySections": [
+    "scopeMeta",
+    "requirements",
+    "quoteStages",
+    "changes",
+    "results"
+  ],
+  "editing": {
+    "approval": null,
+    "changes": [
+      {
+        "baseScopeId": "adae4c18-c731-4c74-8fb1-956b37af790c",
+        "id": "C01",
+        "impact": "范围、费用与验收待评估",
+        "reason": "后续想法",
+        "status": "accepted",
+        "title": "增加付款（虚构提案）"
+      },
+      {
+        "id": "df98bfa1-e8aa-4d7c-9e16-4b400a65654f",
+        "title": "救援变更",
+        "reason": "",
+        "impact": "",
+        "baseScopeId": "ef8fe9df-82c8-411e-b7ba-7336a2074082",
+        "status": "pending"
+      }
+    ],
+    "permissionRevision": 0,
+    "plan": "8c9adf33-6965-4b85-82a4-3919598f3034",
+    "publicPermission": "unknown",
+    "questions": [
+      {
+        "answer": "",
+        "blocking": false,
+        "id": "Q1",
+        "requirementIds": [],
+        "sourceField": "提交原文",
+        "status": "open",
+        "title": "请带我们走一遍最近一次完整流程，指出交接和等待的位置。"
+      },
+      {
+        "answer": "",
+        "blocking": false,
+        "id": "Q2",
+        "requirementIds": [],
+        "sourceField": "提交原文",
+        "status": "open",
+        "title": "如果第一阶段只改善一件事，你会选择哪一件？"
+      },
+      {
+        "answer": "",
+        "blocking": false,
+        "id": "Q3",
+        "requirementIds": [],
+        "sourceField": "提交原文",
+        "status": "open",
+        "title": "用哪一个真实场景或指标判断结果有帮助？"
+      },
+      {
+        "answer": "",
+        "blocking": false,
+        "id": "Q4",
+        "requirementIds": [],
+        "sourceField": "提交原文",
+        "status": "open",
+        "title": "谁需要参与下一次访谈和方案决定？"
+      },
+      {
+        "answer": "",
+        "blocking": false,
+        "id": "Q5",
+        "requirementIds": [],
+        "sourceField": "提交原文",
+        "status": "open",
+        "title": "这些数据是否获准使用？哪些必须脱敏或留在本地？"
+      }
+    ],
+    "quote": "dee161e1-f281-403b-963a-ca962a95ddf6",
+    "quoteStages": [
+      {
+        "costFen": 2000,
+        "costPayer": "eli",
+        "costState": "known",
+        "id": "Q01",
+        "minutes": 90,
+        "rateFen": 10000,
+        "requirementIds": [
+          "R01"
+        ],
+        "saleFen": "123.45",
+        "title": "网站首版",
+        "zeroReason": ""
+      },
+      {
+        "costFen": null,
+        "costPayer": "unknown",
+        "costState": "unknown",
+        "id": "Q02",
+        "minutes": null,
+        "rateFen": null,
+        "requirementIds": [
+          "R02"
+        ],
+        "saleFen": null,
+        "title": "文件处理调研",
+        "zeroReason": ""
+      }
+    ],
+    "requirements": [
+      {
+        "acceptance": "可查产品并提交咨询；中文界面",
+        "condition": "",
+        "deliverable": "20个虚构产品的展示及咨询入口",
+        "id": "R01",
+        "kind": "build",
+        "sourceField": "problem",
+        "stage": "网站首版",
+        "status": "included",
+        "stop": "",
+        "title": "救援范围"
+      },
+      {
+        "acceptance": "记录字段、人工核对和异常；不声称AI已实现",
+        "condition": "仅虚构样例；真实授权和扫描类型待问",
+        "deliverable": "合成文件字段核对与可行性记录",
+        "id": "R02",
+        "kind": "research",
+        "sourceField": "aiTask",
+        "stage": "文件处理调研",
+        "status": "included",
+        "stop": "若资料授权或提取能力未验证，停止正式开发",
+        "title": "AI文件处理可行性调研"
+      }
+    ],
+    "scope": "ef8fe9df-82c8-411e-b7ba-7336a2074082",
+    "scopeMeta": {
+      "excluded": "支付、自动外发、真实PDF解析和正式AI开发",
+      "goal": "救援目标"
+    },
+    "source": "63e5af56-1bf5-41f8-98ce-30903791179a"
+  },
+  "resultEditing": {
+    "f281924c-1345-4c99-af91-18352f4a68a9": {
+      "action": "可查产品并提交咨询；中文界面",
+      "actor": "",
+      "created": "",
+      "evidence": "",
+      "id": "f281924c-1345-4c99-af91-18352f4a68a9",
+      "requirementId": "R01",
+      "result": "救援验收",
+      "status": "unmeasured",
+      "testedVersion": "",
+      "title": "产品展示与咨询"
+    }
+  }
+}

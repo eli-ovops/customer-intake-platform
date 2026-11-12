@@ -1,0 +1,19 @@
+{
+  "result": "pass",
+  "virtualSource": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/browser-1791253347825",
+  "backup": "/Volumes/EXTERNAL/FDE/customer-intake-platform/backups/intake-2026-10-06T02-23-09.661Z.sqlite",
+  "independentRestore": "/Volumes/EXTERNAL/FDE/customer-intake-platform/data/restored-qa-1791253389675",
+  "tables": {
+    "intakes": 3,
+    "submissions": 4,
+    "notes": 1,
+    "summaries": 3,
+    "users": 1,
+    "sessions": 1,
+    "audit": 20
+  },
+  "elapsedMs": 1020,
+  "existingTargetRejected": true,
+  "outsideTargetRejected": true,
+  "originalLiveDataUntouched": true
+}

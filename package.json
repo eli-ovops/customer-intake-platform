@@ -1,0 +1,47 @@
+{
+  "name": "fde-customer-intake",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": ">=22.16.0 <23"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "start": "tsx server/index.ts",
+    "init-admin": "tsx scripts/init-admin.ts",
+    "backup": "tsx scripts/backup.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "test:browser": "playwright test",
+    "licenses": "node scripts/licenses.mjs",
+    "restore": "tsx scripts/restore.ts",
+    "verify:delivery": "tsx scripts/verify-delivery.ts",
+    "start:delivery": "tsx scripts/delivery-start.ts normal",
+    "init:delivery": "tsx scripts/delivery-start.ts init-demo",
+    "verify:delivery:browser": "tsx scripts/verify-delivery-browser.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "3.0.2",
+    "express": "5.2.1",
+    "helmet": "8.1.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-router-dom": "7.18.4",
+    "survey-react-ui": "3.1.2",
+    "zod": "4.1.13"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/express": "5.0.5",
+    "@types/node": "22.19.1",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@vitejs/plugin-react": "5.1.1",
+    "prettier": "3.9.9",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vite": "7.3.6"
+  }
+}

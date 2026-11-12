@@ -1,0 +1,20 @@
+{
+  "scenario": "D03",
+  "status": "CORE_PASSED",
+  "fixture": "dirty-four-sections",
+  "startedAt": "2026-10-12T10:21:22.537Z",
+  "completedAt": "2026-10-12T10:21:26.645Z",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/D03-1791800482537",
+  "checks": [
+    "401/403/400/409/413, cross-customer and failed write leave no partial state",
+    "same browser-cookie jar: root A/B isolated, logout A preserves B",
+    "second writer and lost root refuse; no empty root/database reconstructed",
+    "capacity adapter rejects growth but reserved metadata permits revocation",
+    "missing delivery degrades only its module; legacy/auth valid; expired sessions rejected; no empty delivery recreated"
+  ],
+  "deviations": [],
+  "limitations": [
+    "browser/cold-start evidence is collected separately; CORE_PASSED is not full scenario acceptance"
+  ]
+}

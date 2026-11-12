@@ -1,0 +1,157 @@
+{
+  "status": "QUESTIONNAIRE_UI_PASSED",
+  "completedAt": "2026-10-12T11:26:55.865Z",
+  "sourceSha256": "5bb295eb455c2fde4f06814a2505383d48ed221040c4e69e58402a91e270edd0",
+  "scope": "Customer questionnaire simple and detailed modes, inherited workbench design",
+  "changes": [
+    "shared palette and control styling",
+    "desktop two-column options and 390px single-column, 46px targets",
+    "mode explanations and explicit required/optional guidance",
+    "actual dynamic step progress with transform motion and reduced-motion support"
+  ],
+  "verification": {
+    "build": "build-scoped.log passed",
+    "rulesAndApi": "api-tests-final.log 19/19 passed",
+    "browser": "browser-tests-visible-field.log 7/7 passed",
+    "visual": {
+      "status": "PASSED",
+      "completedAt": "2026-10-12T11:21:11.991Z",
+      "checks": [
+        "simple 1440px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+        "detailed 1440px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+        "1440px: forward/back navigation retains answers",
+        "simple 390px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+        "detailed 390px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+        "390px: forward/back navigation retains answers"
+      ],
+      "dimensions": [
+        {
+          "width": 1440,
+          "mode": "simple",
+          "pageHeight": 1625,
+          "actionBarY": 1426.75,
+          "optionHeight": 46,
+          "questionCount": 5
+        },
+        {
+          "width": 1440,
+          "mode": "detailed",
+          "pageHeight": 1625,
+          "actionBarY": 1426.75,
+          "optionHeight": 46,
+          "questionCount": 5
+        },
+        {
+          "width": 390,
+          "mode": "simple",
+          "pageHeight": 1865,
+          "actionBarY": 1664.890625,
+          "optionHeight": 46,
+          "questionCount": 5
+        },
+        {
+          "width": 390,
+          "mode": "detailed",
+          "pageHeight": 1865,
+          "actionBarY": 1664.890625,
+          "optionHeight": 46,
+          "questionCount": 5
+        }
+      ],
+      "pageErrors": []
+    },
+    "format": "format.log passed",
+    "review": {
+      "disposition": "ship",
+      "materialFindings": [],
+      "scope": "six screenshots and corresponding questionnaire code/visual receipt",
+      "designDocumentation": "DESIGN.md and schemaVersion2 sidecar updated"
+    }
+  },
+  "diagnosis": {
+    "historyRetained": [
+      "browser-tests.log",
+      "browser-tests-final.log",
+      "visual.log",
+      "mobile-dropdown-recheck.log"
+    ],
+    "dropdown": "The mobile test auto-scrolled an offscreen field while opening its popup; subsequent scroll dismissed it. Native scroll-to-field then normal click, menu scroll and last-item click passed; no forced clicks or weakened validation.",
+    "layout": "Option grid restricted to fieldsets so dropdown layout remains full width."
+  },
+  "boundaries": {
+    "runtime": "registered synthetic demo, loopback only",
+    "realCustomerData": "NOT_ACCESSED",
+    "externalAI": "NOT_CALLED",
+    "publicDeployment": "NOT_PERFORMED"
+  },
+  "continued": {
+    "completedAt": "2026-10-12T11:35:11.902Z",
+    "status": "PASSED",
+    "sourceSha256": "46544d4e7aaa29d1adfc82e5c8f81c5685f3b8f8edbfe449ed2e7538e83c8cd8",
+    "scope": "44px native form controls, 16px spacing, shorter repeated notice, navigation positioning and keyboard focus",
+    "visual": {
+      "status": "PASSED",
+      "completedAt": "2026-10-12T11:32:28.911Z",
+      "checks": [
+        "simple 1440px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+        "detailed 1440px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+        "1440px: forward/back navigation retains answers",
+        "simple 390px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+        "detailed 390px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+        "390px: forward/back navigation retains answers"
+      ],
+      "dimensions": [
+        {
+          "width": 1440,
+          "mode": "simple",
+          "pageHeight": 1557,
+          "actionBarY": 1358.75,
+          "optionHeight": 46,
+          "questionCount": 5
+        },
+        {
+          "width": 1440,
+          "mode": "detailed",
+          "pageHeight": 1557,
+          "actionBarY": 1358.75,
+          "optionHeight": 46,
+          "questionCount": 5
+        },
+        {
+          "width": 390,
+          "mode": "simple",
+          "pageHeight": 1813,
+          "actionBarY": 1612.890625,
+          "optionHeight": 46,
+          "questionCount": 5
+        },
+        {
+          "width": 390,
+          "mode": "detailed",
+          "pageHeight": 1813,
+          "actionBarY": 1612.890625,
+          "optionHeight": 46,
+          "questionCount": 5
+        }
+      ],
+      "pageErrors": []
+    },
+    "extraAssertions": [
+      "single-line text/dropdown actual height 44-46px",
+      "progress at viewport top after navigation",
+      "progress focused after navigation, next Tab focuses first question"
+    ],
+    "regressions": {
+      "initial": "continued-browser.log 7/7 passed",
+      "afterLastSmallFix": "continued-focused-browser.log 2/2 passed",
+      "build": "continued-build-last.log passed",
+      "format": "continued-format.log passed"
+    },
+    "review": {
+      "disposition": "ship",
+      "materialFindings": [],
+      "documentation": "two design records updated and parseable"
+    },
+    "detector": "single run; supporting 11/12px size advisories documented in frontmatter"
+  }
+}

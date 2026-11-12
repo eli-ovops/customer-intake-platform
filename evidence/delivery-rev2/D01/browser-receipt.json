@@ -1,0 +1,15 @@
+{
+  "scenario": "D01",
+  "status": "BROWSER_PASSED",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "fixture": "browser-qinghe",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/browser-1791800219504",
+  "completedAt": "2026-10-12T10:17:01.333Z",
+  "checks": [
+    "native UI saved goal, frozen S2, quote Q2 and new plan; reload stable",
+    "1440/390px no horizontal overflow; inherited titles not retyped",
+    "pending sales distinct from internal 150.00 subtotal"
+  ],
+  "pageErrors": [],
+  "deviations": []
+}

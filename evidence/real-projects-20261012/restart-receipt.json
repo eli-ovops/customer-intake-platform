@@ -1,0 +1,20 @@
+{
+  "status": "PASSED",
+  "stateDigest": "caff30621282a4eec9794af9c52437dc30dd8c4a4dffbf15b56009201405edd1",
+  "count": 4,
+  "runtime": {
+    "producerApp": "eli-fde-delivery",
+    "appVersion": "0.2.0",
+    "pid": 35307,
+    "startedAt": "2026-10-12T14:03:25.994Z",
+    "node": "v22.16.0",
+    "runtime": "/Users/USER/.local/nodejs/node-v22.16.0-darwin-arm64/bin/node",
+    "projectRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform",
+    "dataRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/real-projects-20261012",
+    "authRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/real-projects-20261012/auth",
+    "port": 4181,
+    "url": "http://127.0.0.1:4181",
+    "entry": "http://127.0.0.1:4181/admin",
+    "syntheticOnly": false
+  }
+}

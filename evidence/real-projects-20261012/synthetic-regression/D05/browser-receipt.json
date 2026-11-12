@@ -1,0 +1,17 @@
+{
+  "scenario": "D05",
+  "status": "BROWSER_PASSED",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "fixture": "browser-qinghe",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/browser-1791813624372",
+  "completedAt": "2026-10-12T14:00:32.452Z",
+  "checks": [
+    "actual Node runtime closed and reopened on same synthetic root, saved revision retained",
+    "old detail entry/auth and new delivery route work after cold reopen; keyboard target exists",
+    "full old questionnaire Playwright suite recorded separately"
+  ],
+  "pageErrors": [],
+  "deviations": [],
+  "runtimeVersion": "v22.16.0",
+  "port": 62277
+}

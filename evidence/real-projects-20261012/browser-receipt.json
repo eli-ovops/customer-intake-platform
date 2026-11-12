@@ -1,0 +1,9 @@
+{
+  "status": "PASSED",
+  "checks": [
+    "1440px four real document records; source/date labels, delivery links, no synthetic content or overflow",
+    "390px four real document records; source/date labels, delivery links, no synthetic content or overflow"
+  ],
+  "pageErrors": [],
+  "at": "2026-10-12T14:03:32.858Z"
+}

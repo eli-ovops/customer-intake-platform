@@ -1,0 +1,19 @@
+{
+  "status": "PASSED",
+  "at": "2026-10-12T14:03:27.332Z",
+  "realDataRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/real-projects-20261012",
+  "syntheticOnly": false,
+  "count": 4,
+  "sourceHashesMatched": true,
+  "checks": [
+    "private root identity and four document-derived records",
+    "no fake client submission, price or contact",
+    "default unauthorized denied; explicit local session only",
+    "CSRF and Origin still enforced",
+    "real save revision and reread",
+    "real two-db backup and independent restore retain data nature",
+    "restore gets fresh authentication and rejects old sessions/local auto entry"
+  ],
+  "restoredRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/real-documents-restore-1791813806869",
+  "backupId": "3956652e-c1e4-4c3a-8522-afd9f32cc51e"
+}

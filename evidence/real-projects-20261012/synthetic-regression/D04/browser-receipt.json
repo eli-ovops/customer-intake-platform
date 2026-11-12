@@ -1,0 +1,16 @@
+{
+  "scenario": "D04",
+  "status": "BROWSER_PASSED",
+  "owner": "01a10ed7-5d22-7401-8f0f-29bb53cf3cfd",
+  "fixture": "browser-qinghe",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/delivery-rev2/browser-1791813624372",
+  "completedAt": "2026-10-12T14:00:31.843Z",
+  "checks": [
+    "actual internal JSON and separate customer Markdown downloaded and inspected",
+    "completed customer download denied after revoke",
+    "real two-db backup restored, independent AUTH_ROOT/cookie namespace in same browser; logout A preserves B",
+    "historic public approval does not revive in restore"
+  ],
+  "pageErrors": [],
+  "deviations": []
+}

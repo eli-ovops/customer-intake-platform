@@ -1,0 +1,140 @@
+{
+  "pageErrors": [],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/me",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/intakes",
+      "status": 201
+    },
+    {
+      "method": "PUT",
+      "path": "/api/intakes/09879a3e-137d-45d3-99af-923fddb42e10",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/intakes/09879a3e-137d-45d3-99af-923fddb42e10",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/intakes/09879a3e-137d-45d3-99af-923fddb42e10/submit",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/intakes/09879a3e-137d-45d3-99af-923fddb42e10/submit",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/intakes/09879a3e-137d-45d3-99af-923fddb42e10/submit",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/me",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/me",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/password",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/intakes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/intakes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/intakes/09879a3e-137d-45d3-99af-923fddb42e10",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/admin/intakes/09879a3e-137d-45d3-99af-923fddb42e10/stage",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/intakes/09879a3e-137d-45d3-99af-923fddb42e10/notes",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/intakes/09879a3e-137d-45d3-99af-923fddb42e10/export",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/intakes",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/logout",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/me",
+      "status": 200
+    }
+  ]
+}

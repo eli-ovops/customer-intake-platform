@@ -1,0 +1,37 @@
+{
+  "status": "PASSED",
+  "runtime": {
+    "producerApp": "eli-fde-delivery",
+    "appVersion": "0.2.0",
+    "pid": 29234,
+    "startedAt": "2026-10-13T02:26:43.023Z",
+    "node": "v22.16.0",
+    "runtime": "/Users/USER/.local/nodejs/node-v22.16.0-darwin-arm64/bin/node",
+    "projectRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform",
+    "dataRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/real-projects-20261012",
+    "authRoot": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/real-projects-20261012/auth",
+    "port": 4181,
+    "url": "http://127.0.0.1:4181",
+    "entry": "http://127.0.0.1:4181/admin",
+    "syntheticOnly": false,
+    "rootId": "149dc19d-621d-4517-af72-66dcb90b0bbc",
+    "ownerApprovalSocket": "/Volumes/EXTERNAL/FDE/customer-intake-platform/runtime/real-projects-20261012/auth/oa-29234.sock",
+    "customerPort": 4182,
+    "customerUrl": "http://127.0.0.1:4182"
+  },
+  "anonymousInternalDenied": true,
+  "anonymousAutoSessionDenied": true,
+  "customerInternalDenied": true,
+  "localSocketMode": "0600",
+  "retainedCounts": [
+    {
+      "source": "project",
+      "n": 4
+    },
+    {
+      "source": "test-isolated",
+      "n": 4
+    }
+  ],
+  "noOwnerAuthorizationPerformedOnRealRoot": true
+}

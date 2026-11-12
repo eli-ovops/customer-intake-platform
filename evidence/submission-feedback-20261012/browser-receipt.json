@@ -1,0 +1,12 @@
+{
+  "status": "PASSED",
+  "completedAt": "2026-10-12T12:02:14.404Z",
+  "root": "/Volumes/EXTERNAL/FDE/customer-intake-platform/tests/runtime/submission-feedback-1791806528596",
+  "checks": [
+    "1440px simple: required-field recovery, pending edit lock, draft/server receipt, real submission/supplement versions, idempotent repeat, failure retains edits and removes success",
+    "1440px detailed: required-field recovery, pending edit lock, draft/server receipt, real submission/supplement versions, idempotent repeat, failure retains edits and removes success",
+    "390px simple: required-field recovery, pending edit lock, draft/server receipt, real submission/supplement versions, idempotent repeat, failure retains edits and removes success",
+    "390px detailed: required-field recovery, pending edit lock, draft/server receipt, real submission/supplement versions, idempotent repeat, failure retains edits and removes success"
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,47 @@
+{
+  "status": "PASSED",
+  "completedAt": "2026-10-12T11:21:11.991Z",
+  "checks": [
+    "simple 1440px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+    "detailed 1440px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+    "1440px: forward/back navigation retains answers",
+    "simple 390px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+    "detailed 390px: no overflow, at most five questions, 44px options, mode switch preserves answers",
+    "390px: forward/back navigation retains answers"
+  ],
+  "dimensions": [
+    {
+      "width": 1440,
+      "mode": "simple",
+      "pageHeight": 1625,
+      "actionBarY": 1426.75,
+      "optionHeight": 46,
+      "questionCount": 5
+    },
+    {
+      "width": 1440,
+      "mode": "detailed",
+      "pageHeight": 1625,
+      "actionBarY": 1426.75,
+      "optionHeight": 46,
+      "questionCount": 5
+    },
+    {
+      "width": 390,
+      "mode": "simple",
+      "pageHeight": 1865,
+      "actionBarY": 1664.890625,
+      "optionHeight": 46,
+      "questionCount": 5
+    },
+    {
+      "width": 390,
+      "mode": "detailed",
+      "pageHeight": 1865,
+      "actionBarY": 1664.890625,
+      "optionHeight": 46,
+      "questionCount": 5
+    }
+  ],
+  "pageErrors": []
+}
